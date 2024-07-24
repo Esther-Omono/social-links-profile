@@ -21,8 +21,8 @@ This project involves creating a profile card that displays user information and
 
 ### Links
 
-- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/)
-- Live Site URL: [Live Site](/)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/responsive-social-links-profile-card-ucu7qc0DiZ)
+- Live Site URL: [Live Site](https://social-links-profile-estheromonos-projects.vercel.app/)
 
 ## Project Structure
 
