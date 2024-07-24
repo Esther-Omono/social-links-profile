@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Variables */
+:root {
+    --primary:hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --darkgrey: hsl(0, 0%, 12%);
+    --offblack: hsl(0, 0%, 8%);
+}
+
+/* Project Styles */
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--offblack);
+}
+
+.profile-container {
+    background-color: var(--darkgrey);
+    border-radius: 10px;
+    height: 500px;
+    width: 330px;
+    text-align: center;
+    margin: 120px auto;
+}
+
+.profile-info {
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin-top: 20px;
+}
+
+.profile-name {
+    color: var(--white);
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.profile-location {
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.profile-about {
+    color: var(--white);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-links button {
+    padding: 10px;
+    width: 85%;
+    margin-bottom: 15px;
+    font-size: 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--grey);
+    color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.social-links button:hover {
+    background-color: var(--primary);
+    color: var(--darkgrey);
+}
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.attribution a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 1440px) {
+    .profile-container {
+        width: 380px;
+        height: 520px;
+    }
+}
